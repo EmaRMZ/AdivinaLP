@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundletras__2_"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B3009688"
+        android:textAlignment="center"
+        android:text="Adivina La Palabra"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="350dp"
+        android:backgroundTint="#B3F44336"
+        android:text="START"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_dificultad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="250dp"
+        android:backgroundTint="#B32196F3"
+        android:text="Info"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_dificultad" />
+
+    <Button
+        android:id="@+id/btn_dificultad"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#B34CAF50"
+        app:layout_constraintBottom_toTopOf="@+id/btn_info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_start"
+        android:text="dificultad"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

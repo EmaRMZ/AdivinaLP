@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AdivinaLP</string>
+    <string name="enter">ENTER</string>
+    <string name="buscar">BUSCAR</string>
+    <string name="seleccione_una_dificultad">Seleccione una Dificultad</string>
+    <string name="facil_las_palabras_son_de_5_letras">Facil: Las palabras son de 5 letras.</string>
+    <string name="intermedio_las_palabras_son_de_7_letras">Intermedio: Las palabras son de 7 letras.</string>
+    <string name="dificil_las_palabras_son_de_9_letras">Dificil: Las palabras son de 9 letras.</string>
+    <string name="ok">ok</string>
+    <string name="felicitaciones">¡FELICITACIONES!</string>
+    <string name="adivinaste_la_palabra">ADIVINASTE LA PALABRA</string>
+    <string name="jugar_de_nuevo">jugar de nuevo</string>
+    <string name="salir">salir</string>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gameover2">
+
+    <TextView
+        android:id="@+id/title_lost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HAS PERDIDO"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:text="¡Buena suerte la proxima vez!"
+        android:textAlignment="center"
+        android:textColor="@color/green"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@+id/title_lost"
+        />
+
+
+    <Button
+        android:id="@+id/reintentar"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="reintentar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:backgroundTint="@color/green"
+        />
+
+    <Button
+        android:id="@+id/inicio"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="inicio"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="@color/red"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

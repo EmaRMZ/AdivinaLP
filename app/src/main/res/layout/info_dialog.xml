@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/texto_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AdivinaLP es un juego donde tendras que completar la palabra aleatoria que te ofrece."
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/texto_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Debes seleccionar una dificultad antes de empezar."
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/texto_1"/>
+    <TextView
+        android:id="@+id/texto_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tienes 10 intentos para lograr descubrir la palabra. Si aciertas una letra no perderas el intento."
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/texto_2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Las letras ya utilizadas se volveran de color rojo como indicativo y ya no podras seleccionarlas."
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/texto_3"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
